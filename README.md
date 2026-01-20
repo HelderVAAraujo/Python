@@ -1,2 +1,3 @@
 # Python
-Iniciando os estudos em Pytho. Varios exercicios.
+SISTEMA DE INFORMAÇÃO - IFNMG - CAMPUS PORTEIRINHA - MG
+Iniciando os estudos em Pytho. Codigos da disciplina Estrutura de dados.
