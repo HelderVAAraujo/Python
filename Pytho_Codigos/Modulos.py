@@ -20,24 +20,27 @@
 #tan=math.tan(ang)
 #print(f'Seno de {ang}, é igual a: {seno}\nCosseno de {ang} é a: {cos}\nTangente de {ang} é igual a: {tan}')
 
-#import random
-#cont=0
-#alunos=[]
-#while cont<4:
-#    aluno=input('Digite o nome do aluno:')
-#    alunos.append(aluno)
-#    cont +=1
-#escolido=random.choice(alunos)
-#print(f'Aluno escolhido foi {escolido}')
 
-#import random
-#cont=0
-#alunos=[]
-#while cont<4:
-#    aluno=input('Digite o nome do aluno:')
-#    alunos.append(aluno)
-#    cont +=1
-#random.shuffle(alunos)
-#print(f'Aluno escolhido foi {alunos}')
+import random           #{Algoritimo para sortear um elemento em um array}
+alunos=[]               #{Lista onde sera alocados os elementos}
+cont=0                  #{Contador para finalizar o programa}
 
+while cont < 5:         #{Controlador de execução}
+    aluno=str(input("Digite o nome do aluno"))      
+    alunos.append(aluno)                            #{Inserção de elementos}
+    cont +=1
+escolido=random.choice(alunos)                
+print(f'O aluno escolido foi:{escolido}')
+
+import random
+alunos=[]
+conte=0
+
+while conte < 5:
+    aluno=str(input('Digite o nome do aluno: '))
+    alunos.append(aluno)
+    conte +=1
+    
+random.shuffle(alunos)
+print(alunos)
 
